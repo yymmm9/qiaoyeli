@@ -8,13 +8,55 @@
 	<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>𝘎𝘪𝘰𝘪𝘦𝘭𝘭𝘪 微信点单</title>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400&display=swap" rel="stylesheet">
+	
+
+  	<!-- General 
+	  <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="/favicons/favicon.ico">
+    -->
+	
+	  <!-- Apple 
+     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="grey">
+     -->
 	<link rel="icon" type="image/png" href="/icons/icon-72x72.png" sizes="72x72">
   <link rel="icon" type="image/png" href="/icons/icon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/png" href="/icons/icon-192x192.png" sizes="192x192">
+	
+	  <!-- Apple 
+     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="grey">
+     -->
+	
 	<link rel="apple-touch-icon" href="/icons/icon-192x192.png" sizes="192x192">
 
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	  <!-- Microsoft -->
 
+  <!-- <link rel="manifest" href="/pages/manifest.json">
+  <link href="/src/styles.css" rel="stylesheet"> -->
+
+  <script>
+   $(document).ready(function(){
+    if (("standalone" in window.navigator) && window.navigator.standalone) {
+      // For iOS Apps
+      $('a').on('click', function(e){
+        e.preventDefault();
+        var new_location = $(this).attr('href');
+        if (new_location != undefined && new_location.substr(0, 1) != '#' && $(this).attr('data-method') == undefined){
+          window.location = new_location;
+        }
+      });
+    }
+   });
+  </script>
 </head>
 <body cz-shortcut-listen="true">
 
@@ -39,25 +81,179 @@
 		<path d="M25.6405 91.7732C27.6918 91.7732 29.2303 91.7733 29.7431 91.9445C29.914 91.9445 30.085 91.9445 30.2559 92.1158C30.4268 92.2871 30.4268 92.6297 30.4268 92.9723C30.4268 93.1436 30.4268 93.4862 30.085 93.8288C29.7431 94.1714 29.4012 94.1714 28.5465 94.0001C27.3499 94.0001 26.6661 94.0001 26.6661 94.0001C25.9824 94.0001 24.7858 93.8288 23.4183 93.8288C23.4183 92.6297 23.4183 91.602 23.4183 90.7455C23.4183 88.6899 23.5892 89.0325 23.4183 88.0047C23.4183 86.463 23.0764 85.6065 23.5892 85.2639C23.7602 85.0926 24.102 85.0926 24.4439 85.0926C24.9567 85.0926 25.2986 84.9213 25.6405 85.2639C25.8114 85.4352 25.8114 85.7778 25.8114 86.463C25.6405 87.8334 25.6405 88.3473 25.6405 88.8612C25.6405 89.3751 25.6405 89.3751 25.6405 90.5742C25.6405 90.9168 25.6405 91.4307 25.6405 91.7732Z" fill="#2A1F10"/>
 		</svg>
 	</div>
-	<div class="sec alimenti" id="container">
+	<div class="sec alimenti">
+		<div class="title"><h3>一楼 Piano terra</h3></div>
+		
+		<div class="key" data-key="coltello" onclick="window.open('https://w.url.cn/s/AjThf9d')">
+			<div class="it-cn less"><h5>吧 1</h5> <p>1个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="tagliere" onclick="window.open('https://w.url.cn/s/AZkMPnu')">
+			<div class="it-cn less"><h5>吧 2</h5> <p>1个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="ciottolo" onclick="window.open('https://w.url.cn/s/AuqE2DC')">
+			<div class="it-cn less"><h5>吧 3</h5> <p>1个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="pentola" onclick="window.open('https://w.url.cn/s/AxjgZ8L')">
+			<div class="it-cn less"><h5>吧 4</h5> <p>1个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key fullwidth" data-key="" onclick="window.open('https://w.url.cn/s/Atqaw2r')">
+			<div class="it-cn less"><h5>吧 5</h5> <p>1个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/AeoLuEu')">
+			<div class="it-cn less"><h5>A方1</h5> <p>2个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/ArxMVkd')">
+			<div class="it-cn less"><h5>A方2</h5> <p>2个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/AFZ1jRt')">
+			<div class="it-cn less"><h5>A方3</h5> <p>2个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/AhKwGP0')">
+			<div class="it-cn less"><h5>A方5</h5> <p>2个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<!--
+		<div class="key" data-key="" onclick="window.open('')">
+			<div class="it-cn less"><h5></h5> <p></p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>-->
+	</div>
+
+  <div class="sec cottura">
+		<div class="title"><h3>二楼 Primo piano</h3></div>
+		
+		<div class="key" data-key="cuocere" onclick="window.open('https://w.url.cn/s/AsNkWfw')">
+			<div class="it-cn less"><h5>B01</h5> <p>4人位</p> </div>
+			<div class="note less"><h5>烧</h5> <p>Shāo</p></div>
+		</div>
+		<div class="key" data-key="saltare" onclick="window.open('https://w.url.cn/s/At9YU6m')">
+			<div class="it-cn less"><h5>B02</h5>  <p>4人位</p></div>
+			<div class="note less"><h5>炒</h5> <p>Chǎo</p></div>
+		</div>
+		<div class="key" data-key="bollire" onclick="window.open('https://w.url.cn/s/AcMZcNp')">
+			<div class="it-cn less"><h5>B03</h5>  <p>4人位</p></div>
+			<div class="note less"><h5>煮</h5> <p>Zhǔ</p></div>
+		</div>
+		<div class="key" data-key="al-vapore" onclick="window.open('https://w.url.cn/s/AwJrS5F')">
+			<div class="it-cn less"><h5>B05</h5>  <p>4人位</p></div>
+			<div class="note less"><h5>蒸</h5> <p>Zhēng</p></div>
+		</div>
+		<div class="key b06" data-key="grigliare" onclick="window.open('https://w.url.cn/s/A9XNtV9')">
+			<div class="it-cn less"><h5>B06</h5>  <p>4人位</p></div>
+			<div class="note less"><h5>煎</h5> <p>Jiān</p></div>
+		</div>
+		<div class="key" data-key="frigere" onclick="window.open('https://w.url.cn/s/APOKyim')">
+			<div class="it-cn less"><h5>B07</h5>  <p>2/4人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key fent" data-key="frigere" onclick="window.open('https://w.url.cn/s/A1Nac22')">
+			<div class="it-cn less"><h5>B07分台</h5>  <p>2人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key" data-key="frigere" onclick="window.open('https://w.url.cn/s/AtHElsG')">
+			<div class="it-cn less"><h5>B08</h5>  <p>2/4人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key fent" data-key="frigere" onclick="window.open('https://w.url.cn/s/AbbYrnc')">
+			<div class="it-cn less"><h5>B08分台</h5>  <p>2人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key" data-key="frigere" onclick="window.open('https://w.url.cn/s/Ae78HSR‘)">
+			<div class="it-cn less"><h5>B09</h5>  <p>2/4人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key fent" data-key="frigere" onclick="window.open('https://w.url.cn/s/Ayflaer')">
+			<div class="it-cn less"><h5>B09分台</h5>  <p>2人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key" data-key="frigere" onclick="window.open('https://w.url.cn/s/AavmbbK')">
+			<div class="it-cn less"><h5>B10</h5>  <p>2/4人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key fent" data-key="frigere" onclick="window.open('https://w.url.cn/s/AV2zdii')">
+			<div class="it-cn less"><h5>B10分台</h5>  <p>2人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key" data-key="frigere" onclick="window.open('https://w.url.cn/s/A5urLks')">
+			<div class="it-cn less"><h5>B11</h5>  <p>2人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+		<div class="key" data-key="frigere" onclick="window.open('https://w.url.cn/s/AnuCcES')">
+			<div class="it-cn less"><h5>B12</h5>  <p>2人位</p></div>
+			<div class="note less"><h5>炸</h5> <p>Zhà</p></div>
+		</div>
+
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/A0Jr1Pl')">
+			<div class="it-cn less"><h5>B21</h5> <p>2个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/AXjDFEq')">
+			<div class="it-cn less"><h5>B22</h5> <p>2个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+		<div class="key fullwidth" data-key="" onclick="window.open('https://w.url.cn/s/AXMUMnq')">
+			<div class="it-cn less"><h5>B23</h5> <p>2个人</p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+	</div>
 	
+	
+	
+	<div class="sec alimenti">
+		<div class="title"><h3>二楼包厢 Primo piano</h3></div>
+		
+		<div class="key fullwidth" data-key="coltello" onclick="window.open('https://w.url.cn/s/AhcMWmY')">
+			<div class="it-cn less"><h5>B小包厢</h5> <p>8个人</p> </div>
+			<div class="note less"><h5>刀</h5> <p>Dāo</p></div>
+		</div>
+		<div class="key" data-key="tagliere" onclick="window.open('https://w.url.cn/s/AVGTlJa')">
+			<div class="it-cn less"><h5>B大包厢1</h5> <p>14个人</p> </div>
+			<div class="note less"><h5>左</h5> <p>Zhēn bǎn</p></div>
+		</div>
+		<div class="key" data-key="tagliere" onclick="window.open('https://w.url.cn/s/ACXtWu0')">
+			<div class="it-cn less"><h5>B大包厢2</h5> <p>14个人</p> </div>
+			<div class="note less"><h5>右</h5> <p>Zhēn bǎn</p></div>
+		</div>
+		<div class="key" data-key="ciottolo" onclick="window.open('https://w.url.cn/s/A48PGz8')">
+			<div class="it-cn less"><h5>多功能厅</h5> <p></p> </div>
+			<div class="note less"><h5>碗</h5> <p>Wǎn</p></div>
+		</div>
+		<div class="key" data-key="pentola" onclick="window.open('https://w.url.cn/s/A09N3Mo')">
+			<div class="it-cn less"><h5>外带1</h5> <p></p> </div>
+			<div class="note less"><h5>锅</h5> <p>Guō</p></div>
+		</div>
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/AmM41S5')">
+			<div class="it-cn less"><h5>外带2</h5> <p></p> </div>
+			<div class="note less"><h5></h5> <p>Jiān</p></div>
+		</div>
+		<div class="key" data-key="" onclick="window.open('https://w.url.cn/s/AlpZpXz')">
+			<div class="it-cn less"><h5>商品台</h5> <p></p> </div>
+			<div class="note less"><h5></h5> <p></p></div>
+		</div>
+	</div>
 	</section>
 	
 	<footer>
 		<h3>Developed by Y</h3>
 	</footer>
-
-  <script src="/template.js"></script>
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-/* @font-face {
+@font-face {
     font-family: 'Roxborough CF';
     src: url('https://cdn.jsdelivr.net/gh/yymmm9/webfont/RB/RoxboroughCF-Light.woff2') format('woff2'),
         url('https://cdn.jsdelivr.net/gh/yymmm9/webfont/RB/RoxboroughCF-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-} */
+}
 
 
 body {
@@ -361,11 +557,12 @@ iframe
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr 1fr 1fr;
+grid-template-areas: "title title" ". ." ". ." ". .";
 	margin-bottom: 40px;
 }
 
 .title{ 
-  grid-column: span 2;
+	grid-area: title;
 	font-family: var(--font);
 	font-style: normal;
 	font-weight: normal;

@@ -1,0 +1,224 @@
+[
+ {
+   "n": "桌台编号0001",
+   "url": "https://w.url.cn/s/A9EuZkA",
+   "name": "大厅01",
+   "Id": 0
+ },
+ {
+   "n": "桌台编号0003",
+   "url": "https://w.url.cn/s/Aw8Im1t",
+   "name": "B01",
+   "Id": 14
+ },
+ {
+   "n": "桌台编号0004",
+   "url": "https://w.url.cn/s/Ad3aYC2",
+   "name": "B02",
+   "Id": 15
+ },
+ {
+   "n": "桌台编号0005",
+   "url": "https://w.url.cn/s/AKXCOJw",
+   "name": "B03",
+   "Id": 16
+ },
+ {
+   "n": "桌台编号0006",
+   "url": "https://w.url.cn/s/AryEPOY",
+   "name": "B05",
+   "Id": 17
+ },
+ {
+   "n": "桌台编号0007",
+   "url": "https://w.url.cn/s/AfrjrKA",
+   "name": "B06",
+   "Id": 18
+ },
+ {
+   "n": "桌台编号0008",
+   "url": "https://w.url.cn/s/A8jSL7k",
+   "name": "商品台 Sale",
+   "Id": 1
+ },
+ {
+   "n": "桌台编号0009",
+   "url": "https://w.url.cn/s/Ad0ArLL",
+   "name": "B07",
+   "Id": 19
+ },
+ {
+   "n": "桌台编号0011",
+   "url": "https://w.url.cn/s/AutVZvp",
+   "name": "B08",
+   "Id": 20
+ },
+ {
+   "n": "桌台编号0013",
+   "url": "https://w.url.cn/s/AjVSrhU",
+   "name": "B09",
+   "Id": 21
+ },
+ {
+   "n": "桌台编号0014",
+   "url": "https://w.url.cn/s/AMu0ZeT",
+   "name": "B09分台",
+   "Id": 22
+ },
+ {
+   "n": "桌台编号0015",
+   "url": "https://w.url.cn/s/AYOmjb5",
+   "name": "B10",
+   "Id": 23
+ },
+ {
+   "n": "桌台编号0017",
+   "url": "http://wx.bw8848.com/dinnerapp/zbwctxdinner.aspx?deskno=0017&dm=B11&storeno=0000&page=scandinnerPage&code=0&parm=MjMwMDMwLGdoXzM5NjE2NzE3NDBiNCxhMTgzNTg4NjM3MjdAMTYzLmNvbSwzLDQsMDAwMDIsMDAwMzMs#scandinnerPage",
+   "name": "B11",
+   "Id": 24
+ },
+ {
+   "n": "桌台编号0018",
+   "url": "http://wx.bw8848.com/dinnerapp/zbwctxdinner.aspx?deskno=0018&dm=B12&storeno=0000&page=scandinnerPage&code=0&parm=MjMwMDMwLGdoXzM5NjE2NzE3NDBiNCxhMTgzNTg4NjM3MjdAMTYzLmNvbSwzLDQsMDAwMDIsMDAwMzMs#scandinnerPage",
+   "name": "B12",
+   "Id": 25
+ },
+ {
+   "n": "桌台编号0019",
+   "url": "https://w.url.cn/s/AlaMr99",
+   "name": "B小包厢camera",
+   "Id": 26
+ },
+ {
+   "n": "桌台编号0020",
+   "url": "https://w.url.cn/s/AJLURuH",
+   "name": "B大包厢",
+   "Id": 27
+ },
+ {
+   "n": "桌台编号0021",
+   "url": "https://w.url.cn/s/AVDffw5",
+   "name": "多功能厅",
+   "Id": 28
+ },
+ {
+   "n": "桌台编号0022",
+   "url": "https://w.url.cn/s/AEca0YU",
+   "name": "外带台1",
+   "Id": 2
+ },
+ {
+   "n": "桌台编号0023",
+   "url": "https://w.url.cn/s/AtTrGyL",
+   "name": "外带台2",
+   "Id": 3
+ },
+ {
+   "n": "桌台编号0024",
+   "url": "https://w.url.cn/s/AQQScVA",
+   "name": "吧1",
+   "Id": 7
+ },
+ {
+   "n": "桌台编号0025",
+   "url": "https://w.url.cn/s/AbWQVZG",
+   "name": "吧2",
+   "Id": 8
+ },
+ {
+   "n": "桌台编号0028",
+   "url": "https://w.url.cn/s/A9IhwhG",
+   "name": "吧5",
+   "Id": 9
+ },
+ {
+   "n": "桌台编号0032",
+   "url": "https://w.url.cn/s/Ads6yt4",
+   "name": "A方1",
+   "Id": 10
+ },
+ {
+   "n": "桌台编号0033",
+   "url": "https://w.url.cn/s/ALT5LdC",
+   "name": "A方2",
+   "Id": 11
+ },
+ {
+   "n": "桌台编号0034",
+   "url": "https://w.url.cn/s/A6vTF9r",
+   "name": "A方3",
+   "Id": 12
+ },
+ {
+   "n": "桌台编号0035",
+   "url": "https://w.url.cn/s/ABhj9Lx",
+   "name": "A方5",
+   "Id": 13
+ },
+ {
+   "n": "桌台编号0036",
+   "url": "https://w.url.cn/s/A3B0MdV",
+   "name": "C01",
+   "Id": 29
+ },
+ {
+   "n": "桌台编号0037",
+   "url": "https://w.url.cn/s/A8LSCpD",
+   "name": "C02",
+   "Id": 30
+ },
+ {
+   "n": "桌台编号0038",
+   "url": "https://w.url.cn/s/AuZlHr8",
+   "name": "C03",
+   "Id": 31
+ },
+ {
+   "n": "桌台编号0039",
+   "url": "https://w.url.cn/s/AMXItzU",
+   "name": "C05",
+   "Id": 32
+ },
+ {
+   "n": "桌台编号0040",
+   "url": "https://w.url.cn/s/AsvQd1E",
+   "name": "C06",
+   "Id": 33
+ },
+ {
+   "n": "桌台编号0041",
+   "url": "https://w.url.cn/s/AQ0baIZ",
+   "name": "C07",
+   "Id": 34
+ },
+ {
+   "n": "桌台编号0042",
+   "url": "https://w.url.cn/s/AjxQghK",
+   "name": "C08",
+   "Id": 35
+ },
+ {
+   "n": "桌台编号0043",
+   "url": "https://w.url.cn/s/AKmiVWS",
+   "name": "C09",
+   "Id": 36
+ },
+ {
+   "n": "桌台编号0044",
+   "url": "https://w.url.cn/s/AOg0ZAc",
+   "name": "外带台3",
+   "Id": 4
+ },
+ {
+   "n": "桌台编号0045",
+   "url": "https://w.url.cn/s/AAJErhT",
+   "name": "外带台5",
+   "Id": 5
+ },
+ {
+   "n": "桌台编号0046",
+   "url": "https://w.url.cn/s/AYXoAV9",
+   "name": "外带台6",
+   "Id": 6
+ }
+]
